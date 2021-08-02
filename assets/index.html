@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <title>Weather Dashboard</title>
 </head>
+<header>
+    <h1>Weather Dashboard</h1>
+</header>
 <body>
-    
+    <!-- input form -->
+    <h3>Search for a City:</h3>
+    <form action="" method="get" class="form">
+        <div class="city" id="city">
+          <label for="city">Enter city name: </label>
+          <input type="text" name="city" id="cityInput" required>
+        </div>
+        <div class="state" id="state">
+          <label for="state">Enter the state: </label>
+          <input type="text" name="state" id="stateInput" required>
+        </div>
+        <div class="submitBtn" id="submitBtn">
+          <input type="submit" value="submit!">
+        </div>
+      </form>
+
+    <!-- Single day weather result -->
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+
+    <script type="text/javascript" src = "./js/script.js"></script>
+    <script type="text/javascript" src = "./js/jquery.js"></script>
 </body>
 </html>
